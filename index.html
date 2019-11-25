@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="./"><img src="./images/mobile/Logo.svg" alt="26andfour logo" class="logo"></a>
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="./images/mobile/Ham.svg" alt="toogle menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop nav">x</li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">AboutUs</a></li>
+                    <li><a href="#">Contacts </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="./images/pc/Server.svg" alt="server graphic" class="server">
+
+            <h1>Web Hosting for the Modern Era</h1>
+            <p class="subhead">Go serverless and pay only for what you use</p>
+
+            <img src="./images/pc/scrool.svg" alt="scrool down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./images/mobile/iconfinder_46.Calendar_290104.svg" alt="Calendar icon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolorum! Iusto qui nihil ipsam,
+                        nulla consequatur maxime!</p>
+                </li>
+                <li>
+                    <img src="./images/mobile/iconfinder_07.Wallet_290143.svg" alt="Wallet icon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolorum! Iusto qui nihil ipsam,
+                        nulla consequatur maxime!</p>
+                </li>
+                <li>
+                    <img src="./images/mobile/iconfinder_27.Phone_290123.svg" alt="Phone icon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolorum! Iusto qui nihil ipsam,
+                        nulla consequatur maxime!</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="./images/mobile/Ellipse4.svg" alt="Image of person">
+                        <blockquote>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ducimus aliquam
+                            consequatur.
+                        </blockquote>
+                        <figcaption>- John Doe</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/mobile/Ellipse5.svg" alt="Image of person">
+                        <blockquote>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ducimus aliquam
+                            consequatur.
+                        </blockquote>
+                        <figcaption>- Jane Doe</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Start your free trial now!</h2>
+        <a href="#" class="cta">Get Started</a>
+    </div>
+
+    <footer>
+            <div class="footer-container">
+                <div class="container">
+                    <a href="#">
+                        <img src="./images/mobile/Logo2.svg" alt="White Logo" class="logo">
+                    </a>
+                    <p class="address">Melrose Place, 90210<br>USA</p>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+
+    <script>
+    
+        var manu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+        
+        menu.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        })
+        exit.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        })
+
+    </script>
+
+
+</body>
+
+</html>
